@@ -1,14 +1,11 @@
 #! /usr/bin/env python3
 # coding: utf-8
 
-
 from tkinter import *
-
 
 
 class PomodoroTimer(Frame):
     """Display an interface for a Pomodoro Timer"""
-
 
     def __init__(self, master):
         super(PomodoroTimer, self).__init__(master)
@@ -21,10 +18,8 @@ class PomodoroTimer(Frame):
         self._count_session = 0
 
 
-
-
+    # Display a minimalist GUI with Tkinter library
     def interface(self):
-
         self.duration = StringVar()
         self.duration.set(None)
 
@@ -82,7 +77,7 @@ class PomodoroTimer(Frame):
 
 
 
-
+    # Prepare the countdown timer for the requested time.
     def start_countdown(self):
         options = self.duration.get()
         if options == "focus 25mins":
@@ -97,7 +92,7 @@ class PomodoroTimer(Frame):
         elif options == "break 15mins":
             self.countdown_ready(900)
 
-    # Prepare the countdown timer for the requested time.
+
     def countdown_ready(self, duration):
         if self._stop_id is not None:
             self.master.after_cancel(self._stop_id)
@@ -106,15 +101,18 @@ class PomodoroTimer(Frame):
         self._paused = True
 
 
+    # Start the countdown for the requested time
     def start_action(self):
         self._paused = False
         if self._stop_id is None:
             self.countdown(self._duration)
 
+    # Stop the countdown
     def stop_action(self):
         if self._stop_id is not None:
             self._paused = True
 
+    # Reset the countdown for the previous requested time
     def reset_action(self):
         self.master.after_cancel(self._stop_id)
         self._stop_id = None
@@ -122,10 +120,8 @@ class PomodoroTimer(Frame):
         self.countdown(self._duration)
         self._paused = True
 
-
-
+    # Display a countdown in the form 00:00.
     def countdown(self, time_seconds, start=True):
-
         if time_seconds >= 0 :
             if start:
                 self._duration = time_seconds
@@ -137,8 +133,9 @@ class PomodoroTimer(Frame):
 
                 timer.timer_label.configure(text=timeFormat)
                 self._stop_id = self.master.after(1000, self.countdown, time_seconds - 1, False)
+        # When the time is out
         else:
-            # We count sessions only for focus sessions, not the break
+            # Count sessions only for focus sessions, not the break
             if self._duration > 1000:
                 print("Pomodoro Timer finished !")
 
@@ -150,7 +147,6 @@ class PomodoroTimer(Frame):
 
 
 
-
 if __name__ == "__main__":
     window = Tk()
     window.title("Pomodoro Timer Interface")
@@ -158,6 +154,4 @@ if __name__ == "__main__":
     timer = PomodoroTimer(window)
     timer.configure(bg="#333333")
     window.mainloop()
-
-
 
