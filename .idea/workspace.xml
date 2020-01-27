@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7405382-3245-4881-9e3c-8c6e4912eb1c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pomodoro_timer" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WWbsl2QEUDewyOk2NvS1X1FzKx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7405382-3245-4881-9e3c-8c6e4912eb1c" name="Default Changelist" comment="" />
+      <created>1579268507007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579268507007</updated>
+      <workItem from="1579268508465" duration="32477000" />
+      <workItem from="1579620013815" duration="712000" />
+      <workItem from="1579852577123" duration="570000" />
+      <workItem from="1579856705078" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1698" y="23" width="865" height="1007" key="dock-window-1" timestamp="1579528767748">
+      <screen x="1680" y="23" width="1863" height="1057" />
+    </state>
+    <state x="1698" y="23" width="865" height="1007" key="dock-window-1/1680.23.1863.1057/0.23.1680.1027@1680.23.1863.1057" timestamp="1579528767748" />
+    <state x="1689" y="23" width="865" height="1007" key="dock-window-2" timestamp="1579529914176">
+      <screen x="1680" y="23" width="1863" height="1057" />
+    </state>
+    <state x="1689" y="23" width="865" height="1007" key="dock-window-2/1680.23.1863.1057/0.23.1680.1027@1680.23.1863.1057" timestamp="1579529914176" />
+    <state x="1680" y="23" width="621" height="1057" key="dock-window-3" timestamp="1579593442708">
+      <screen x="1680" y="23" width="1863" height="1057" />
+    </state>
+    <state x="1680" y="23" width="621" height="1057" key="dock-window-3/1680.23.1863.1057/0.23.1680.1027@1680.23.1863.1057" timestamp="1579593442708" />
+    <state x="2586" y="124" width="782" height="825" key="find.popup" timestamp="1579522684175">
+      <screen x="1680" y="23" width="1863" height="1057" />
+    </state>
+    <state x="2586" y="124" width="782" height="825" key="find.popup/1680.23.1863.1057/0.23.1680.1027@1680.23.1863.1057" timestamp="1579522684175" />
+  </component>
+</project>
