@@ -154,4 +154,3 @@ if __name__ == "__main__":
     timer = PomodoroTimer(window)
     timer.configure(bg="#333333")
     window.mainloop()
-
